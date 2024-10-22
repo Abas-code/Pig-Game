@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg" sizes="32x32" href="./assets/images/piggy-bank.svg">
+  <title>Pig Game</title>
+  <link type="text/css" rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+	<div id="come\here"></div>
+  <div class="wrapper clearfix">
+    <div class="player-0-panel active">
+      <div class="player-name" id="name-0">Player 1</div>
+      <div class="player-score" id="score-0">43</div>
+      <div class="player-current-box">
+        <div class="player-current-label">Current</div>
+        <div class="player-current-score" id="current-0">11</div>
+      </div>
+    </div>
+        
+    <div class="player-1-panel">
+      <div class="player-name" id="name-1">Player 2</div>
+      <div class="player-score" id="score-1">72</div>
+      <div class="player-current-box">
+        <div class="player-current-label">Current</div>
+        <div class="player-current-score" id="current-1">0</div>
+      </div>
+    </div>
+        
+    <button class="btn-new">
+			<svg xmlns="http://www.w3.org/2000/svg"  width="20" viewBox="0 0 512 512" fill="#EB4D4D">
+				<path d="M432 256c0 17.69-14.33 32.01-32 32.01H256v144c0 17.69-14.33 31.99-32 31.99s-32-14.3-32-31.99v-144H48c-17.67 0-32-14.32-32-32.01s14.33-31.99 32-31.99H192v-144c0-17.69 14.33-32.01 32-32.01s32 14.32 32 32.01v144h144C417.7 224 432 238.3 432 256z"/>
+			</svg> New game
+  	</button>
+
+    <button class="btn-roll">
+			<svg xmlns="http://www.w3.org/2000/svg" width="20" viewBox="0 0 512 512" fill="#EB4D4D">
+				<path d="M480 256c0 123.4-100.5 223.9-223.9 223.9c-48.86 0-95.19-15.58-134.2-44.86c-14.14-10.59-17-30.66-6.391-44.81c10.61-14.09 30.69-16.97 44.8-6.375c27.84 20.91 61 31.94 95.89 31.94C344.3 415.8 416 344.1 416 256s-71.67-159.8-159.8-159.8C205.9 96.22 158.6 120.3 128.6 160H192c17.67 0 32 14.31 32 32S209.7 224 192 224H48c-17.67 0-32-14.31-32-32V48c0-17.69 14.33-32 32-32s32 14.31 32 32v70.23C122.1 64.58 186.1 32.11 256.1 32.11C379.5 32.11 480 132.6 480 256z"/>
+			</svg> Roll dice
+		</button>
+
+    <button class="btn-hold">
+			<svg xmlns="http://www.w3.org/2000/svg" width="20" viewBox="0 0 512 512" fill="#EB4D4D">
+				<path d="M480 352h-133.5l-45.25 45.25C289.2 409.3 273.1 416 256 416s-33.16-6.656-45.25-18.75L165.5 352H32c-17.67 0-32 14.33-32 32v96c0 17.67 14.33 32 32 32h448c17.67 0 32-14.33 32-32v-96C512 366.3 497.7 352 480 352zM432 456c-13.2 0-24-10.8-24-24c0-13.2 10.8-24 24-24s24 10.8 24 24C456 445.2 445.2 456 432 456zM233.4 374.6C239.6 380.9 247.8 384 256 384s16.38-3.125 22.62-9.375l128-128c12.49-12.5 12.49-32.75 0-45.25c-12.5-12.5-32.76-12.5-45.25 0L288 274.8V32c0-17.67-14.33-32-32-32C238.3 0 224 14.33 224 32v242.8L150.6 201.4c-12.49-12.5-32.75-12.5-45.25 0c-12.49 12.5-12.49 32.75 0 45.25L233.4 374.6z"/>
+			</svg> Hold
+		</button>
+    
+    <input type="text" placeholder="Final score" class="final-score">
+    <img src="./assets/images/dice-5.png" alt="Dice" class="dice" id="dice-1">
+    <img src="./assets/images/dice-5.png" alt="Dice" class="dice" id="dice-2">
+  </div>
+  
+  <script src="./assets/challenges.js"></script>
+</body>
+</html>
