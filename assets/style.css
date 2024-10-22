@@ -137,6 +137,7 @@ button:focus { outline: none; }
 svg {
   display: inline-block;
   margin-right: 10px;
+  transition: margin 0.3s;
 }
 
 .btn-new { top: 45px;}
