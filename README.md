@@ -30,8 +30,8 @@ Make a game with the following rules:
 
 ### Links
 
-- Solution URL: (https://github.com/Abas-code/testimonials-grid-section-main)
-- Live Site URL: (https://testimonials-grid-section-main-six-bay.vercel.app/)
+- Solution URL: (https://github.com/Abas-code/Pig-Game)
+- Live Site URL: (https://pig-game-nine-livid.vercel.app/)
 
 
 ## My process
