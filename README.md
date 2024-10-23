@@ -89,7 +89,7 @@ I'm still learning how to use CSS Grid. JavaScript has been added to the mix.
 
 ## Author
 
-- Frontend Mentor - [@Abascode](https://www.frontendmentor.io/profile/Abascode)
+- Abasifreke Jimmy - [@Abascode](https://www.frontendmentor.io/profile/Abascode)
 
 
 ## Acknowledgments
